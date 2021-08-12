@@ -1,0 +1,64 @@
+/* FOR LOGO */
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        color:burlywood;
+    }
+}
+
+/* FOR SLIDER */
+
+/* @keyframes slider1 {
+    0%{
+        transform: translate(0vw);
+    }
+    25%{
+        transform: translate(-5vw);
+    }
+    50%{
+        transform: translate(-40vw);
+
+    }
+    75%{
+        transform: translate(-60vw);
+    }
+    100%{
+        transform: translate(0vw);
+    }
+    }
+    
+} */
+@keyframes cross {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 100px;
+    }
+    100%{
+        width: 200px;;
+    }
+}
+
+/* HOVER OF CATEGORY TEXT */
+
+.cinemacat .cattext:hover{
+    transform: translate(50px);
+}
+
+/* MOBILE ANIMATION SLIDES */
+@keyframes cross {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100px;
+    }
+}

@@ -1,0 +1,155 @@
+.filmimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+}
+.filmimg hr{
+    display: none;
+}
+.line{
+    width: 2px;
+    height: 50vh;
+    background-color: black;
+    position: absolute;
+    left: 45vw;
+}
+.dialouge{
+    font-size: 2em;
+}
+
+.poster{
+    margin-right: 14vw;
+    margin-top:  50px ;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.info{
+    margin: 50px;
+}
+.info h2{
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.info hr{
+    position: relative;
+bottom: 38px;
+width: 50vw;
+}
+.infotext{
+    font-size: 2rem;
+    /* font-weight: ; */
+}
+
+
+
+.checked {
+    color: orange;
+}
+
+
+.casthead, .plot, .trailer, .movieimg, .downloador{
+    /* background-color: black; */
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 10px;
+    margin: 21px auto;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.imgofact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* text-align: center; */
+}
+.lead{
+    margin: 20px;
+}
+.lead a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bolder;
+}
+
+.plot1{
+    font-size: 2em;
+}
+.videotrailer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 20px 0;
+}
+.gridimg{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.watch{
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* .center1{
+    display: flex;
+    justify-content: center;
+} */
+
+.center{
+    font-size: 2em;
+    font-weight: bolder;
+    position: relative;
+    bottom: 80px;
+    right: 18px;
+    /* text-align: center; */
+    opacity: 0;
+}
+.center1{
+    font-size: 2em;
+font-weight: bolder;
+/* position: relative; */
+opacity: 0;
+}
+
+.watch a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */ */
+    margin-left: 40px;
+    /* opacity: 0; */
+}
+
+.watch img{
+    margin: 43px;
+}
+
+.watch:hover .center,
+.watch:hover .center1{
+    opacity: 1;
+}
+
+
+/* GOOGLE FORM OF REQUEST SECTION */
+
+.request{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+
